@@ -35,7 +35,7 @@
 - (UIView *)loadViewFromNib {
     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
     
-    // The system throw exception if the xib file with class name not found,
+    //  An exception will be thrown if the xib file with this class name not found,
     UIView *view = [[bundle loadNibNamed:NSStringFromClass([self class])  owner:self options:nil] firstObject];
     return view;
 }
@@ -45,6 +45,7 @@
     nibView.frame = self.bounds;
     // the autoresizingMask will be converted to constraints, the frame will match the parent view frame
     nibView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    // Adding nibView on the top of our view
     [self addSubview:nibView];
 }
 
