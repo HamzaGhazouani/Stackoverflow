@@ -49,5 +49,4 @@
     [self addSubview:nibView];
 }
 
-
 @end

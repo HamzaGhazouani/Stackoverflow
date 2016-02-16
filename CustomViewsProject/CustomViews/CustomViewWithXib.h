@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
 /**
  *  All classes inherite from CustomViewWithXib should have the same xib file name and class name (.h and .m)
  MyCustomView.h
