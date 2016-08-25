@@ -10,4 +10,6 @@ import UIKit
 
 class MyCustomView: CustomViewWithXib {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    
 }

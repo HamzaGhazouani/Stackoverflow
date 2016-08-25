@@ -10,4 +10,6 @@
 
 @interface MyCustomView : CustomViewWithXib
 
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
 @end
