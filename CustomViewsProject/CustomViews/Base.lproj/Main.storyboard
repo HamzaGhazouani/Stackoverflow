@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
@@ -13,28 +13,41 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ry6-5Z-AaS" customClass="MyCustomView">
-                                <rect key="frame" x="175" y="225" width="250" height="150"/>
+                                <rect key="frame" x="35" y="209" width="250" height="150"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="498-0U-IsN"/>
                                     <constraint firstAttribute="width" constant="250" id="5QQ-V0-eht"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZBu-aQ-FAh" customClass="PickerView">
+                                <rect key="frame" x="0.0" y="348" width="320" height="220"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="ru8-YN-GlT"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Ry6-5Z-AaS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0FP-Sh-APe"/>
+                            <constraint firstItem="ZBu-aQ-FAh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9q4-B8-J1X"/>
+                            <constraint firstAttribute="trailing" secondItem="ZBu-aQ-FAh" secondAttribute="trailing" id="JjN-YJ-9ds"/>
                             <constraint firstItem="Ry6-5Z-AaS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SEH-it-Ju4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ZBu-aQ-FAh" secondAttribute="bottom" id="fec-90-Ssm"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pickerView" destination="ZBu-aQ-FAh" id="OP0-iX-kMe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="257" y="317"/>
+            <point key="canvasLocation" x="137.06666666666666" y="300.09333333333331"/>
         </scene>
     </scenes>
 </document>

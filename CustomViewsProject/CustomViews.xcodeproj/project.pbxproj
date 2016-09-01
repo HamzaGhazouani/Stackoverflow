@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5527F2B51D783B810054E50D /* PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5527F2B31D783B810054E50D /* PickerView.m */; };
+		5527F2B61D783B810054E50D /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5527F2B41D783B810054E50D /* PickerView.xib */; };
 		C779DF161C6D084A0018AC67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C779DF151C6D084A0018AC67 /* main.m */; };
 		C779DF191C6D084A0018AC67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C779DF181C6D084A0018AC67 /* AppDelegate.m */; };
 		C779DF1C1C6D084A0018AC67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C779DF1B1C6D084A0018AC67 /* ViewController.m */; };
 		C779DF1F1C6D084A0018AC67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C779DF1D1C6D084A0018AC67 /* Main.storyboard */; };
 		C779DF211C6D084A0018AC67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C779DF201C6D084A0018AC67 /* Assets.xcassets */; };
 		C779DF241C6D084A0018AC67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C779DF221C6D084A0018AC67 /* LaunchScreen.storyboard */; };
-		C779DF2D1C6D08CC0018AC67 /* CustomViewWithXib.m in Sources */ = {isa = PBXBuildFile; fileRef = C779DF2C1C6D08CC0018AC67 /* CustomViewWithXib.m */; settings = {ASSET_TAGS = (); }; };
-		C779DF311C6D10A60018AC67 /* MyCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C779DF301C6D10A60018AC67 /* MyCustomView.m */; settings = {ASSET_TAGS = (); }; };
-		C779DF331C6D10B90018AC67 /* MyCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C779DF321C6D10B90018AC67 /* MyCustomView.xib */; settings = {ASSET_TAGS = (); }; };
+		C779DF2D1C6D08CC0018AC67 /* CustomViewWithXib.m in Sources */ = {isa = PBXBuildFile; fileRef = C779DF2C1C6D08CC0018AC67 /* CustomViewWithXib.m */; };
+		C779DF311C6D10A60018AC67 /* MyCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C779DF301C6D10A60018AC67 /* MyCustomView.m */; };
+		C779DF331C6D10B90018AC67 /* MyCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C779DF321C6D10B90018AC67 /* MyCustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5527F2B21D783B810054E50D /* PickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerView.h; sourceTree = "<group>"; };
+		5527F2B31D783B810054E50D /* PickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerView.m; sourceTree = "<group>"; };
+		5527F2B41D783B810054E50D /* PickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerView.xib; sourceTree = "<group>"; };
 		C779DF111C6D084A0018AC67 /* CustomViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C779DF151C6D084A0018AC67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C779DF171C6D084A0018AC67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,6 +101,9 @@
 				C779DF2F1C6D10A60018AC67 /* MyCustomView.h */,
 				C779DF301C6D10A60018AC67 /* MyCustomView.m */,
 				C779DF321C6D10B90018AC67 /* MyCustomView.xib */,
+				5527F2B21D783B810054E50D /* PickerView.h */,
+				5527F2B31D783B810054E50D /* PickerView.m */,
+				5527F2B41D783B810054E50D /* PickerView.xib */,
 			);
 			name = CustomViewWithXib;
 			sourceTree = "<group>";
@@ -157,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5527F2B61D783B810054E50D /* PickerView.xib in Resources */,
 				C779DF241C6D084A0018AC67 /* LaunchScreen.storyboard in Resources */,
 				C779DF331C6D10B90018AC67 /* MyCustomView.xib in Resources */,
 				C779DF211C6D084A0018AC67 /* Assets.xcassets in Resources */,
@@ -175,6 +184,7 @@
 				C779DF191C6D084A0018AC67 /* AppDelegate.m in Sources */,
 				C779DF161C6D084A0018AC67 /* main.m in Sources */,
 				C779DF311C6D10A60018AC67 /* MyCustomView.m in Sources */,
+				5527F2B51D783B810054E50D /* PickerView.m in Sources */,
 				C779DF2D1C6D08CC0018AC67 /* CustomViewWithXib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +332,7 @@
 				C779DF2A1C6D084A0018AC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
